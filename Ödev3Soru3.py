@@ -42,8 +42,11 @@ def merge_sort(dizi):
             j+= 1
             k+= 1
         
-print('Başlangıç dizisi:', dizi)
+from array import array
+dizi= array('i', [16, 24, 7, 11, 67, 3, 36])
+
+print('Başlangıç dizisi:', dizi.tolist())
 merge_sort(dizi)
-print('Sıralı dizi:', dizi)
+print('Sıralı dizi:', dizi.tolist())
 
 
