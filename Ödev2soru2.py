@@ -1,3 +1,27 @@
+'''
+Soru 2: Hava Durumu Veri Analizi
+Bir şehrin son 30 günlük sıcaklık, nem ve yağış verilerini analiz eden bir uygulama geliştirin.
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import random
+# Rastgele veri oluştur (gerçek uygulamada bir CSV dosyasından okunabilir) tarihler = pd.date_range(start='2023-01-01', periods=30)
+sicakliklar = np.random.normal(15, 5, 30) # Ortalama 15, std 5 olan normal dağılım nem_oranlari = np.random.uniform(40, 90, 30)
+yagis_miktarlari = np.random.exponential(2, 30) # Üstel dağılım
+# Veriyi bir DataFrame'e dönüştür
+hava_durumu = pd.DataFrame({ 'tarih': tarihler, 'sicaklik': sicakliklar, 'nem': nem_oranlari, 'yagis': yagis_miktarlari
+})
+Aşağıdaki işlevleri gerçekleştiren fonksiyonları yazın:
+1. Sıcaklık, nem ve yağış verilerinin istatistiklerini (ortalama, medyan, min, max) hesaplayan bir fonksiyon
+2. Belirli bir sıcaklık eşiğinin üstündeki günleri bulan bir fonksiyon
+3. Yağışlı günlerin (yağış > 0) nem ortalamasını hesaplayan bir fonksiyon
+4. Tarih aralığına göre filtreleme yapan bir fonksiyon
+5. Sıcaklık ve nem arasındaki korelasyonu numpy kullanarak hesaplayan bir fonksiyon
+6. matplotlib ile sıcaklık, nem ve yağış verilerini aynı grafikte farklı renklerde gösteren bir fonksiyon
+Kullanıcıya bu analizlerden hangisini görmek istediğini soran interaktif bir arayüz ekleyin.
+'''
+
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
