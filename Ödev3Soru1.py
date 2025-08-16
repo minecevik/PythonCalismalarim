@@ -34,3 +34,5 @@ if sonuc!=-1:
     print(f'{hedef} sayisi {sonuc}. indekste bulundu.')
 else:
     print(f'{hedef} sayisi dizide yok. ')
+
+#Zaman karmaşıklığı: O(log2 n)= log2 (6)=3
