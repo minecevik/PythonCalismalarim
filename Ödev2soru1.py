@@ -1,4 +1,22 @@
-
+'''
+Soru 1: Film Veritabanı Analizi
+Bir film veritabanını analiz eden program yazmanız isteniyor.
+# Örnek film veritabanı (gerçek uygulamada bir CSV dosyasından pandas ile okunabilir)
+filmler = [
+    {"ad": "Pulp Fiction", "yil": 1994, "puan": 8.9, "tur": ["Dram", "Suç"]},
+    {"ad": "Inception", "yil": 2010, "puan": 8.8, "tur": ["Bilim Kurgu", "Aksiyon"]},
+    {"ad": "The Matrix", "yil": 1999, "puan": 8.7, "tur": ["Bilim Kurgu", "Aksiyon"]},
+    {"ad": "Parasite", "yil": 2019, "puan": 8.6, "tur": ["Dram", "Gerilim"]},
+    {"ad": "Fight Club", "yil": 1999, "puan": 8.8, "tur": ["Dram", "Gerilim"]}
+]
+Şunları yapan fonksiyonları yazın:
+1. Belirli bir türdeki filmleri listeleyen bir fonksiyon
+2. Belirli bir yıl aralığındaki filmleri bulan bir fonksiyon
+3. Filmlerin ortalama puanını hesaplayan bir fonksiyon
+4. numpy kullanarak film puanlarının standart sapmasını hesaplayan bir fonksiyon
+5. matplotlib kullanarak yıllara göre film puanlarını gösteren bir çizgi grafiği oluşturan bir fonksiyon
+ Bu fonksiyonları kullanarak bir menü sistemi oluşturun ve kullanıcının istediği analizi yapabilmesini sağlayın.
+ '''
 
 filmler = [
     {"ad": "Pulp Fiction", "yil": 1994, "puan": 8.9, "tur": ["Dram", "Suç"]},
