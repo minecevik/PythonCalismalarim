@@ -11,16 +11,6 @@ Bir merminin, yerden belirli bir ilk hız (v0) ve açı (theta) ile fırlatıld�
 ○ Uçuş Süresi: Merminin tekrar yere düştüğü anki toplam zaman.
 ○ Maksimum Yükseklik: Yörünge boyunca ulaştığı en yüksek y değeri.
 ○ Menzil: Yere düştüğünde katettiği toplam yatay mesafe (x değeri).
-Problem 2: Zıplayan Top
-Belirli bir yükseklikten (h0) serbest bırakılan bir topun zıplama hareketini simüle et. Top, her zıpladığında enerjisinin bir kısmını kaybeder ve bir önceki zıplamasındaki yüksekliğin belirli bir oranı (katsayi, örn: 0.7) kadar yükselebilir.
-İstenenler:
-1. Kullanıcıdan başlangıç yüksekliğini (h0) ve enerji kayıp katsayısını (katsayi) al.
-2. Toplamda 5 zıplama için bir for döngüsü kur.
-3. Her zıplama için ulaşılan maksimum yüksekliği hesapla ve ekrana yazdır.
-4. Eğer bir zıplamada ulaşılan yükseklik 1 santimetreden (0.01 metre) daha az ise,
-döngüyü erken sonlandır ve "Top durdu." mesajı ver. (break komutunu araştırabilirsin).
-Örnek Çıktı:
-İpucu: Zamanı (t) her döngüde dt kadar artır. Maksimum yüksekliği bulmak için, her adımda hesapladığın y değerini o ana kadarki maksimum y değeri ile karşılaştır. Açıları radyana çevirmeyi unutma: radyan = derece * (pi / 180). pi sayısını 3.14159 olarak alabilirsin.
 
 '''
 
