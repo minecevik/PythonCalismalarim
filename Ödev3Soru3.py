@@ -49,4 +49,4 @@ print('Başlangıç dizisi:', dizi.tolist())
 merge_sort(dizi)
 print('Sıralı dizi:', dizi.tolist())
 
-
+#Zaman karmaşıklığı: O(n log n)
